@@ -3,126 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ulaanbaatar Historical and Cultural Evening Walking Tour</title>
+    <title>Walking UB - Guided Historical and Cultural Tours in Ulaanbaatar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background-color: #a31e22;
-            color: white;
-            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
         }
         nav {
-            background-color: #d3d3d3;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
             padding: 10px;
-            text-align: center;
         }
         nav a {
-            color: #333;
+            color: #fff;
             margin: 0 15px;
             text-decoration: none;
-            font-weight: bold;
         }
-        section {
+        .container {
             padding: 20px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 8px;
+        }
+        .about, .contact, .services {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
-            background-color: #a31e22;
-            color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .soviet-style {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #b22222;
-            color: #f5f5f5;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Ulaanbaatar Historical and Cultural Evening Walking Tour</h1>
-    <p>Conducted by [Your Name], Archaeologist</p>
-</header>
-
-<nav>
-    <a href="#introduction">Introduction</a>
-    <a href="#destinations">Destinations</a>
-    <a href="#agenda">Agenda</a>
-    <a href="#schedule">Schedule</a>
-    <a href="#route">Walking Route</a>
-    <a href="#contact">Contact & Booking</a>
-</nav>
-
-<section id="introduction">
-    <h2>Introduction</h2>
-    <p>Welcome to our evening walking tour in Ulaanbaatar! This tour is designed for those who are passionate about history, especially the Soviet era. Join us for a 2-hour exploration of Ulaanbaatar's historical and cultural sites from the 20th century.</p>
-</section>
-
-<section id="destinations">
-    <h2>Destinations and Historical Aspects of Ulaanbaatar</h2>
-    <ul>
-        <li>Gandantegchinlen Monastery</li>
-        <li>Sukhbaatar Square</li>
-        <li>State Department Store</li>
-        <li>National Academic Theatre of Opera and Ballet of Mongolia</li>
-        <li>The Beatles Monument</li>
-        <li>Various Soviet-era architecture and landmarks</li>
-    </ul>
-</section>
-
-<section id="agenda">
-    <h2>Agenda of the Walk</h2>
-    <p>Our tour will cover the following points of interest:</p>
-    <ol>
-        <li>Introduction and brief history of Ulaanbaatar</li>
-        <li>Visit to Gandantegchinlen Monastery</li>
-        <li>Walk through Sukhbaatar Square</li>
-        <li>Explore the State Department Store and its significance</li>
-        <li>Visit to the National Academic Theatre of Opera and Ballet of Mongolia</li>
-        <li>End the tour at The Beatles Monument</li>
-    </ol>
-</section>
-
-<section id="schedule">
-    <h2>Schedule</h2>
-    <p>The tour operates every evening from 6 PM to 8 PM. Please arrive at least 10 minutes early for registration.</p>
-</section>
-
-<section id="route">
-    <h2>Walking Route</h2>
-    <p>The walking route covers approximately 3 kilometers, starting from Gandantegchinlen Monastery and ending at The Beatles Monument. The route is designed to give you a comprehensive view of Ulaanbaatar's historical and cultural landscape.</p>
-</section>
-
-<section id="contact">
-    <h2>Contact & Booking</h2>
-    <div class="soviet-style">
-        <p>Email: yourname@example.com</p>
-        <p>Phone: +976 1234 5678</p>
-        <p>Book your tour today and step back in time to explore the rich history of Ulaanbaatar!</p>
+    <header>
+        <h1>Walking UB</h1>
+        <p>Guided Historical and Cultural Tours in Ulaanbaatar</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Tours</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>Welcome to Walking UB! We offer guided historical and cultural tours in Ulaanbaatar, focusing on the rich history and cultural heritage from the Soviet era. Our tours are designed for foreign tourists with an interest in history, particularly the Soviet influence on Ulaanbaatar. Join us to explore the unique historical and cultural mosaics, Soviet-era architecture, and fascinating stories that bring Ulaanbaatar's past to life.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Our Tours</h2>
+            <h3>Historical and Cultural Tours</h3>
+            <p>Our tours highlight key attractions such as:</p>
+            <ul>
+                <li>Sukhbaatar Square</li>
+                <li>Zaisan Memorial</li>
+                <li>Gandan Monastery</li>
+                <li>State Department Store</li>
+                <li>Soviet Mosaics</li>
+                <li>Central Museum of Mongolian Dinosaurs</li>
+            </ul>
+            <p>We ensure our tours cover these key locations efficiently within a 2-hour timeframe, providing engaging narratives and talking points for each site. Experience Ulaanbaatar like never before with Walking UB!</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>For bookings and inquiries, please reach out to us:</p>
+            <p>Name: Dashdorj.U</p>
+            <p>Email: <a href="mailto:ubwalkabout@gmail.com">ubwalkabout@gmail.com</a></p>
+            <p>Phone: <a href="tel:+97688089492">+976 8808-9492</a></p>
+        </section>
     </div>
-</section>
-
-<footer>
-    <p>&copy; 2024 Ulaanbaatar Historical and Cultural Evening Walking Tour</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2024 Walking UB. All rights reserved.</p>
+    </footer>
 </body>
 </html>
